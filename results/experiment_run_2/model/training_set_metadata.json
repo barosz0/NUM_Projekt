@@ -1,0 +1,29 @@
+{
+    "checksum": "CweRoYaBXzfiUYNKlFSTaA==",
+    "data_train_hdf5_fp": "data\\anime_data.training.hdf5",
+    "dataset_src": "data/anime_data.csv",
+    "episodes": {
+        "mean": 25.641841888427734,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 41.583946228027344
+    },
+    "score": {
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "drop_row",
+            "normalization": null,
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        }
+    }
+}

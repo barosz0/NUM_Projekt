@@ -1,0 +1,50 @@
+{
+    "checksum": "aBzTgO5CyX0OdOooHE7_VA==",
+    "data_train_hdf5_fp": "archive\\anime.training.hdf5",
+    "dataset_src": "archive/anime.csv",
+    "episodes": {
+        "mean": 15.91628360748291,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 51.500404357910156
+    },
+    "score": {
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "drop_row",
+            "normalization": null,
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        }
+    },
+    "sfw": {
+        "preprocessing": {
+            "computed_fill_value": "False",
+            "fallback_true_label": null,
+            "fill_value": null,
+            "missing_value_strategy": "fill_with_false"
+        }
+    },
+    "start_year": {
+        "mean": 1474.5250244140625,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 886.6317138671875
+    }
+}

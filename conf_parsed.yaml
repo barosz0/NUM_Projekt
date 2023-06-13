@@ -1,0 +1,63 @@
+input_features:
+  -
+    name: episodes
+    type: numerical
+  -
+    name: start_year
+    type: numerical
+  -
+    name: sfw
+    type: binary
+  -
+    name: type
+    type: category
+  -
+    name: source
+    type: category
+  -
+    name: rating
+    type: category
+  -
+    name: start_season
+    type: category
+  -
+    name: broadcast_day
+    type: category
+  -
+    name: episode_duration
+    type: numerical
+  -
+    name: total_duration
+    type: numerical
+  -
+    name: synopsis_char_count
+    type: numerical
+  -
+    name: title_char_count
+    type: numerical
+  -
+    name: start_date_day_of_year
+    type: numerical
+  -
+    name: end_date_day_of_year
+    type: numerical
+  -
+    name: broadcast_time
+    type: numerical
+  # -
+  #   name: genres
+  #   type: text
+  # -
+  #   name: themes
+  #   type: text
+  # -
+  #   name: demographics
+  #   type: text
+
+model_type: ecd
+output_features:
+    -
+        name: score
+        type: numerical
+        optimizer:
+            type: rmse

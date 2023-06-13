@@ -1,0 +1,13 @@
+{
+    "combined": {
+        "loss": 25.374950408935547
+    },
+    "score": {
+        "loss": 25.37889289855957,
+        "mean_absolute_error": 4.93505334854126,
+        "mean_squared_error": 25.37888526916504,
+        "r2": -30.270267486572266,
+        "root_mean_squared_error": 5.037745952606201,
+        "root_mean_squared_percentage_error": 0.7610953450202942
+    }
+}

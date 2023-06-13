@@ -1,0 +1,278 @@
+{
+    "broadcast_day": {
+        "idx2str": [
+            "<UNK>",
+            "sunday",
+            "saturday",
+            "friday",
+            "tuesday",
+            "thursday",
+            "wednesday",
+            "monday",
+            "other"
+        ],
+        "preprocessing": {
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "<UNK>": 17068,
+            "friday": 468,
+            "monday": 320,
+            "other": 86,
+            "saturday": 519,
+            "sunday": 553,
+            "thursday": 331,
+            "tuesday": 354,
+            "wednesday": 324
+        },
+        "str2idx": {
+            "<UNK>": 0,
+            "friday": 3,
+            "monday": 7,
+            "other": 8,
+            "saturday": 2,
+            "sunday": 1,
+            "thursday": 5,
+            "tuesday": 4,
+            "wednesday": 6
+        },
+        "vocab_size": 9
+    },
+    "checksum": "tH9JBtalhnH3Ve_iWfkY0Q==",
+    "data_train_hdf5_fp": "data\\anime_data_ludwig.training.hdf5",
+    "dataset_src": "data/anime_data_ludwig.csv",
+    "episode_duration": {
+        "mean": 1420.864013671875,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 1497.022705078125
+    },
+    "episodes": {
+        "mean": 12.844728469848633,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 47.622222900390625
+    },
+    "rating": {
+        "idx2str": [
+            "pg_13",
+            "g",
+            "pg",
+            "rx",
+            "r",
+            "r+",
+            "<UNK>"
+        ],
+        "preprocessing": {
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "<UNK>": 358,
+            "g": 6530,
+            "pg": 2379,
+            "pg_13": 7094,
+            "r": 1269,
+            "r+": 1001,
+            "rx": 1392
+        },
+        "str2idx": {
+            "<UNK>": 6,
+            "g": 1,
+            "pg": 2,
+            "pg_13": 0,
+            "r": 4,
+            "r+": 5,
+            "rx": 3
+        },
+        "vocab_size": 7
+    },
+    "score": {
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "drop_row",
+            "normalization": null,
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        }
+    },
+    "sfw": {
+        "preprocessing": {
+            "computed_fill_value": "False",
+            "fallback_true_label": null,
+            "fill_value": null,
+            "missing_value_strategy": "fill_with_false"
+        }
+    },
+    "source": {
+        "idx2str": [
+            "original",
+            "manga",
+            "<UNK>",
+            "visual_novel",
+            "game",
+            "light_novel",
+            "other",
+            "novel",
+            "music",
+            "web_manga",
+            "4_koma_manga",
+            "picture_book",
+            "book",
+            "mixed_media",
+            "card_game",
+            "web_novel",
+            "radio"
+        ],
+        "preprocessing": {
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "4_koma_manga": 293,
+            "<UNK>": 3476,
+            "book": 147,
+            "card_game": 62,
+            "game": 991,
+            "light_novel": 802,
+            "manga": 4125,
+            "mixed_media": 84,
+            "music": 344,
+            "novel": 568,
+            "original": 6749,
+            "other": 800,
+            "picture_book": 171,
+            "radio": 13,
+            "visual_novel": 1068,
+            "web_manga": 309,
+            "web_novel": 21
+        },
+        "str2idx": {
+            "4_koma_manga": 10,
+            "<UNK>": 2,
+            "book": 12,
+            "card_game": 14,
+            "game": 4,
+            "light_novel": 5,
+            "manga": 1,
+            "mixed_media": 13,
+            "music": 8,
+            "novel": 7,
+            "original": 0,
+            "other": 6,
+            "picture_book": 11,
+            "radio": 16,
+            "visual_novel": 3,
+            "web_manga": 9,
+            "web_novel": 15
+        },
+        "vocab_size": 17
+    },
+    "start_season": {
+        "idx2str": [
+            "fall",
+            "spring",
+            "summer",
+            "winter",
+            "<UNK>"
+        ],
+        "preprocessing": {
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "<UNK>": 2712,
+            "fall": 4685,
+            "spring": 4426,
+            "summer": 4177,
+            "winter": 4023
+        },
+        "str2idx": {
+            "<UNK>": 4,
+            "fall": 0,
+            "spring": 1,
+            "summer": 2,
+            "winter": 3
+        },
+        "vocab_size": 5
+    },
+    "start_year": {
+        "mean": 1735.3663330078125,
+        "preprocessing": {
+            "computed_fill_value": 0.0,
+            "computed_outlier_fill_value": 0.0,
+            "fill_value": 0.0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": "zscore",
+            "outlier_strategy": null,
+            "outlier_threshold": 3.0
+        },
+        "std": 687.002197265625
+    },
+    "type": {
+        "idx2str": [
+            "tv",
+            "ova",
+            "movie",
+            "ona",
+            "special",
+            "music",
+            "<UNK>"
+        ],
+        "preprocessing": {
+            "computed_fill_value": "<UNK>",
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "<UNK>": 1,
+            "movie": 3704,
+            "music": 1888,
+            "ona": 2407,
+            "ova": 3913,
+            "special": 2351,
+            "tv": 5759
+        },
+        "str2idx": {
+            "<UNK>": 6,
+            "movie": 2,
+            "music": 5,
+            "ona": 3,
+            "ova": 1,
+            "special": 4,
+            "tv": 0
+        },
+        "vocab_size": 7
+    }
+}

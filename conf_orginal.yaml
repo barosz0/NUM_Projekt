@@ -1,0 +1,32 @@
+input_features:
+  -
+    name: episodes
+    type: numerical
+  -
+    name: start_year
+    type: numerical
+  -
+    name: sfw
+    type: binary
+  -
+    name: type
+    type: category
+  -
+    name: source
+    type: category
+  -
+    name: rating
+    type: category
+  -
+    name: start_season
+    type: category
+  -
+    name: broadcast_day
+    type: category
+
+output_features:
+    -
+        name: score
+        type: numerical
+        optimizer:
+            type: r2

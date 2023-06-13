@@ -1,0 +1,5 @@
+ludwig experiment --dataset "archive/anime.csv" --config conf.yaml
+ludwig train --dataset "data/anime_data_ludwig.csv"  --config conf_parsed.yaml --experiment_name anime
+
+ludwig visualize -v learning_curves --training_statistics results/anime_run/training_statistics.json
+ludwig train --dataset "data/anime_data_ludwig.csv"  --config conf_parsed.yaml
